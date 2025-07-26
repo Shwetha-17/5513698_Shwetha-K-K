@@ -6,11 +6,18 @@ q=a-b #subtraction
 r=b*c #multiply
 s=b/c #divide
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature_2
 if a>c:
     print("a is greater")
 else:
     print("c is greater")
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature_2
 
 
 
