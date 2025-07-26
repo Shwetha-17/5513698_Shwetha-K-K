@@ -3,6 +3,7 @@ b=5
 c=10
 sum=a+b+c
 diff=a-b
-e=c*a
-d=b/a
+d=b*c
+e=b/c
+
 
