@@ -9,7 +9,9 @@ git log
 git log --oneline
 git rebase
 git reset --hard <commit_id>
-git checkout <commit_id>
+git revert
+git branch
+git checkout 
 git stash
 git stash pop
 git merge 
