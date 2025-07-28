@@ -1,0 +1,15 @@
+Git Commands:
+
+git init
+git clone repository url
+git add .
+git commit -m "message"
+git commit --amend
+git log
+git log --oneline
+git rebase
+git reset --hard <commit_id>
+git checkout <commit_id>
+git stash
+git stash pop
+git merge 
