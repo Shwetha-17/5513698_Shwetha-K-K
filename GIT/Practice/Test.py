@@ -1,9 +1,25 @@
 a=5 
 b=5
 c=10
-sum=a+b+c #addition
-diff=a-b #subtraction
-d=b*c #division
-e=b/c #multiplication
+p=a+b+c #addition
+q=a-b #subtraction
+r=b*c #multiply
+s=b/c #divide
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature_2
+if a>c:
+    print("a is greater")
+else:
+    print("c is greater")
+<<<<<<< HEAD
+
+=======
+>>>>>>> feature_2
+
+
+
 
 
