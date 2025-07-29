@@ -5,5 +5,5 @@
 
 ![Git Certificate](GIT/Certificates/GIT_Certificate.jpg)
 
-![Linux History SS](LINUX/Practices/History_SS.png)
+![Linux History SS](LINUX/History_ScreenShots/History_SS.png)
 
