@@ -1,0 +1,11 @@
+Alice 25 55000
+Bob 32 48000
+Charlie 28 62000
+Diana 26 51000
+Ethan 35 47000
+Fiona 29 68000
+George 31 53000
+Hannah 27 46000
+Ivan 24 72000
+Jasmine 30 49000
+

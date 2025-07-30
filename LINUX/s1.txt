@@ -1,0 +1,96 @@
+323 vi sum.c
+324 gcc sum.c && ./a.out
+325 vi filecmd
+326 cat filecmd
+327 cat sum.c
+328 gcc sum.c
+329 ./a.out
+330 gcc sum.c && ./a.out
+331 ls
+332 more filecmd
+333 nano filecmd
+334 more filecmd
+335 less filecmd
+336 head filecmd
+337 head -n 5 filecmd
+338 tail filecmd
+339 tail +5 filecmd
+340 nano sample.txt
+341 cat sample.txt
+342 cut -c 1-3 sample.txt
+343 cut -c 4-10 sample.txt
+344 cat sample.txt
+345 cut -d '|' -f2 sample.txt
+346 cut -d '|' -f2,3 sample.txt
+347 ls
+348 cat demo
+349 nano f1
+350 nano f2
+351 cat fi
+352 cat f1
+353 cat f2
+354 paste f1 f2
+355 paste -d '|' f1 f2
+356 paste -s f1 f2
+357 cat sample.txt
+358 sort sample.txt
+359 sort sample.txt -r
+360 sort -t '|' -k2 sample.txt
+361 sort -t '|' -k3 sample.txt
+362 sort -t '|' -k4 sample.txt
+363 sort -t '|' -k3 sample.txt -r
+364 cat sample.txt
+365 tr '|' '|' < sample.txt
+366 cat sample.txt
+367 ls
+368 tr '|' '|' < sample.txt > s1.txt
+369 ls
+370 cat s1.txt
+371 tr '|0' '|$' < sample.txt
+372 cat sample.txt
+373 tr -s '0' < sample.txt
+374 cat sample.txt
+375 tr -d '0' < sample.txt
+376 nano example.txt
+377 cat example.txt
+378 uniq example.txt
+379 nano example.txt
+380 cat example.txt
+381 uniq example.txt
+382 ls
+383 cat sample.txt
+384 cat s1.txt
+385 cmp sample.txt s1.txt
+386 diff sample.txt s1.txt
+387 ls
+388 nano test.c
+389 cat test.c
+390 grep main test.c
+391 grep ^main test.c
+392 grep ^int test.c
+393 grep \; test.c
+394 nano test.c
+395 cat test.c
+396 grep ^int test.c
+397 nano sed_test
+398 cat sed_test
+399 sed 's/Hello/Hi/' sed_test
+400 cat sed_test
+401 sed -i 's/Hello/Hi/' sed_test
+402 cat sed_test
+403 sed 's/!/$/g' sed_test
+404 cat sed_test
+405 sed '/simple/d' sed_test
+406 sed '/Hi/a Welcome to sed' sed_test
+407 sed -n '/Hi/p' sed_test
+408 nano employees.txt
+409 cat employees.txt
+410 awk '{print $0}' employees.txt
+411 awk '{print $1, $3}' employees.txt
+412 awk $3>50000 '{print $1, $3}' employees.txt
+413 awk '$3 > 50000 {print $1, $3}' employees.txt
+414 awk 'BEGIN {print "Name|, Salary| "} {print $1, $3}' employees.txt
+415 awk 'BEGIN {print "Name Salary"} {print $1, $3}' employees.txt
+416 awk 'BEGIN {print "Name Age Salary"} {print $1, $2, $3}' employees.txt
+417 awk '{total+= $3} END {print "Total Salary=", total}' employees.txt
+418 awk '{print $0}' employees.txt
