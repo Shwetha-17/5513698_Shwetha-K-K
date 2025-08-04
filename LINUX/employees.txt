@@ -9,3 +9,4 @@ Hannah 27 46000
 Ivan 24 72000
 Jasmine 30 49000
 
+https://www.hackerrank.com/interview/preparation-kits/one-month-preparation-kit/one-month-week-one/challenges
