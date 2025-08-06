@@ -9,3 +9,7 @@
 
 ![Linux History SS](LINUX/History_ScreenShots/History_SS_(Day-2).png)
 
+![C_Beginners_Certificate](C_Programming/Certificates/C_Beginners_Certificate.png)
+
+![C_Intermediate_Certificate](C_Programming/Certificates/C_Intermediate_Certificate.png)
+
